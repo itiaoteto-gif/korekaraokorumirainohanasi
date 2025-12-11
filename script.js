@@ -46,6 +46,12 @@ const SCENES = {
     chara: "self_bed.png",
     music: "bgm_dream.mp3",
     text: [
+      "これから起こる未来の話"
+      "※プロトタイプ版なので、これからシナリオの変更等が起こりえます。"
+      "※また、使用している画像や音楽はすべて仮置きのものとなります。"
+      "※自殺表現、文章によるグロ表現、過去のトラウマを想起させる表現がございます。"
+      ""
+      "これから起こる未来の話"
       "目の前で男がベッドに横たわっている。",
       "どうやらとても苦しんでいるようだ。",
       "俺の手元には「鎮痛剤」と書かれた注射器がある。",
@@ -272,7 +278,7 @@ const SCENES = {
       { speaker: "俺", content: "「……」" },
       { speaker: "彼", content: "「そんな未来と、今ここで死ぬ未来、俺はどっちがいい？」" },
       "",
-      "安楽死用の毒を――",
+      "安楽死用の毒を──",
       ""
     ],
     choices: [
@@ -540,4 +546,5 @@ textboxEl.addEventListener("click", () => {
 window.addEventListener("load", () => {
   startScene(currentSceneId);
 });
+
 
